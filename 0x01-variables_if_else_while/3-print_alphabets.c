@@ -1,12 +1,20 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-/* printing the alphabet */
 int main(void)
 {
-	char c;
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
-	for (c = 'A'; c <= 'Z'; c++)
-		putchar(c)
-	return (0);
+char ch;
+
+for (ch = 'a' ; ch <= 'z' ; ch++)
+{
+putchar(ch);
 }
+putchar('\n');
+for (ch = 'A' ; ch <= 'Z' ; ch++)
+{
+putchar(ch);
+}
+
+return (0);
+}
+
