@@ -1,9 +1,6 @@
 #include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+#include <stdlib.h>
+
 int main(void)
 {
 
@@ -15,3 +12,4 @@ int main(void)
 
 return (0);
 }
+
