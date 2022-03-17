@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - multiplies two integers
- *
- * Return: Always 0.
+ * mul - Multiply 2 integers.
+ * @a: An integer to be multiplied with b
+ * @b : An integer to be multipled with a
+ * Return: Return the result of the multiplication
  */
-int mul(int a, int b);
+int mul(int a, int b)
 {
 	return (a * b);
 }
