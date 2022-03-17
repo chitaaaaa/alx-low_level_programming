@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
 * _isupper - Shows 1 if the input is a
 * uppercase character. Another cases, shows 0
