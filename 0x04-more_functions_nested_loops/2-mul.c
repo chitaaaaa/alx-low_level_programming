@@ -6,8 +6,7 @@
  *
  * Return: Always 0.
  */
-extern int mul(int a, int b);
+int mul(int a, int b);
 {
-	int a * int b;
-		return 0;
+	return (a * b);
 }
