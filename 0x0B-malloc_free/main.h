@@ -18,4 +18,8 @@ int **alloc_grid(int width, int height);
 
 char *create_array(unsigned int size, char c);
 
+int len(char *str);
+
+int num_words(char *str);
+
 #endif
