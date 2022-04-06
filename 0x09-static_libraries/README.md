@@ -1,1 +1,1 @@
-SATIC LIBRARIES
+static libraries
