@@ -1,21 +1,23 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * _memset - replace n characters with b
- * @s: memory address for the string value
- * @b: the value to replace the chars
- * @n: the number of chars to replace
- *
- * Description: only (n) chars are replaced
- * Return: Always(0) Success
+ * _memset - fills a memory with a constant byte
+ * @s: pointer to memory area
+ * @b: constant value
+ * @n: number of bytest to fill in
+ * Return: filled memory byte
  */
+
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int i;
-	char *src = (char *)s;
+	int size = n;
 
-	for (i = 0; i < n; i++)
-		src[i] = b;
+	if (size > 0)
+	{
+		int i;
 
-	return (src);
+		for (i = 0; i < size; i++)
+			*(s + i) = b;
+	}
+	return (s);
 }
