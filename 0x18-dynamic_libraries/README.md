@@ -1,1 +1,0 @@
-dnamic library
